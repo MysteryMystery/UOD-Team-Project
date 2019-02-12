@@ -22,6 +22,12 @@
 	    </div>
 	</nav>
 
+	<noscript>
+		<div class="container-fluid bg-warning">
+			<p class="lead" style="margin-bottom: 0">For full functionality of this page, you need to enable JavaScript. Please check out <a href="http://www.enable-javascript.com" target="_blank"> this link</a> for help.</p>
+		</div>
+	</noscript>
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container text-center">
 			<h1 class="display">Windows Hardening Suite</h1>
@@ -30,8 +36,13 @@
 			<div class="container text-center">
 				<div class="row">
 					<div class="col">
-						<a class="btn btn-primary releases-link" href="#">Releases</a>
-						<a class="btn btn-primary wiki-link" href="#">Wiki</a>
+						<a class="btn btn-primary latest-dl-link hero-btn" href="#">Download Latest</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<a class="btn btn-primary releases-link hero-btn" href="#">Releases</a>
+						<a class="btn btn-primary wiki-link hero-btn" href="#">Wiki</a>
 					</div>
 				</div>
 			</div>
@@ -75,6 +86,10 @@
 			$(".wiki-link").click(function(){
 				//window.location.href = "https://github.com/MysteryMystery/UOD-Team-Project/wiki";
 				openNewTab(window, "https://github.com/MysteryMystery/UOD-Team-Project/wiki");
+			});
+
+			$(".latest-dl-link").click(function(){
+				openNewTab(window, "https://github.com/MysteryMystery/UOD-Team-Project/releases");
 			});
 		});
 	</script>
