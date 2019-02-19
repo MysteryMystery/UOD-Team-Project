@@ -25,12 +25,16 @@ body {
 
 .hero-btn {
 	background-color: #90c2e7 !important;
-	border-color: #1a1d1a !important;
+	border-color: /*#1a1d1a !important;*/ #4e8098 !important;
 	margin-bottom: 0.2em;
 	margin-right: 0.1em;
 	margin-left: 0.1em;
 	border-radius: 0 !important;
-	color: black !important;
+	color: #18314f !important;
+}
+
+.hero-btn:hover {
+	border-color: #90c2e7 !important;
 }
 
 .hero-para {
