@@ -1,15 +1,17 @@
 /* http://paletton.com/#uid=23m0u0ktdiLkqrOpwnyAIdfNY6X */
+/* https://coolors.co/4464ad-383b53-1a1d1a-4e8098-90c2e7 http://prntscr.com/mn8ipw */
 
 body {
-	background-color: #013741 !important;
+	/*background-color: #013741 !important;*/
+	background-color: #1a1d1a !important;
 }
 
 .bg-main {
-	background-color: #0a4e5c;
+	background-color: #383b53;
 }
 
 .bg-hero {
-	background-color: #337b88 !important;
+	background-color: #4e8098 !important;
 }
 
 .footer {
@@ -22,8 +24,8 @@ body {
 }
 
 .hero-btn {
-	background-color: #DE9550 !important;
-	border-color: #693400 !important;
+	background-color: #90c2e7 !important;
+	border-color: #1a1d1a !important;
 	margin-bottom: 0.2em;
 	margin-right: 0.1em;
 	margin-left: 0.1em;
@@ -36,5 +38,5 @@ body {
 	margin-top: 0.2em;
 	margin-left: 0.2em;
 	color: white;
-	background-color: #337b88;
+	background-color: #4464ad;
 }
