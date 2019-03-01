@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* http://paletton.com/#uid=73m0u0ktdiLkqrOpwnyAIdfNY6X  */
 /* https://coolors.co/51c2f6-e0e0e0-f4d06f-4f6d7a-274690 */
 
@@ -12,22 +11,6 @@ body {
 
 .bg-hero {
 	background-color: /*#337b88*/ #274690 !important;
-=======
-/* http://paletton.com/#uid=23m0u0ktdiLkqrOpwnyAIdfNY6X */
-/* https://coolors.co/4464ad-383b53-1a1d1a-4e8098-90c2e7 http://prntscr.com/mn8ipw */
-
-body {
-	/*background-color: #013741 !important;*/
-	background-color: #1a1d1a !important;
-}
-
-.bg-main {
-	background-color: #383b53;
-}
-
-.bg-hero {
-	background-color: #4e8098 !important;
->>>>>>> 8d4acd6f6ca43ae7b1fabdb29fef66845a5a93b5
 }
 
 .title-bar {
@@ -63,22 +46,13 @@ body {
 }
 
 .hero-btn {
-<<<<<<< HEAD
 	background-color: #f4d06f !important;
 	border-color: #4f6d7a !important;
-=======
-	background-color: #90c2e7 !important;
-	border-color: /*#1a1d1a !important;*/ #4e8098 !important;
->>>>>>> 8d4acd6f6ca43ae7b1fabdb29fef66845a5a93b5
 	margin-bottom: 0.2em;
 	margin-right: 0.1em;
 	margin-left: 0.1em;
 	border-radius: 0 !important;
-	color: #18314f !important;
-}
-
-.hero-btn:hover {
-	border-color: #90c2e7 !important;
+	color: black !important;
 }
 
 .hero-btn:hover {
@@ -86,23 +60,11 @@ body {
 }
 
 .hero-para {
-	padding: 0.5em;
 	margin-bottom: 0.2em;
 	margin-top: 0.2em;
-<<<<<<< HEAD
 	margin-left: 0.1em;
 	margin-right: 0.1em;
 	padding-top: 0.2em;
 	color: #4f6d7a;
 	background-color: #e0e0e0;
-=======
-	margin-left: 0.2em;
-	color: white;
-	background-color: #4464ad;
-}
-
-.standard-para {
-	background-color: #90c2e7;
-	color: #1a1d1a;
->>>>>>> 8d4acd6f6ca43ae7b1fabdb29fef66845a5a93b5
 }
