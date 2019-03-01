@@ -1,29 +1,53 @@
-/* http://paletton.com/#uid=23m0u0ktdiLkqrOpwnyAIdfNY6X */
+/* http://paletton.com/#uid=73m0u0ktdiLkqrOpwnyAIdfNY6X  */
+/* https://coolors.co/51c2f6-e0e0e0-f4d06f-4f6d7a-274690 */
 
 body {
-	background-color: #013741 !important;
+	background-color: /*#013741*/ #f4f4f4;
 }
 
 .bg-main {
-	background-color: #0a4e5c;
+	background-color: /*#042A37*/ #51c2f6;
 }
 
 .bg-hero {
-	background-color: #337b88 !important;
+	background-color: /*#337b88*/ #274690 !important;
+}
+
+.title-bar {
+	margin-bottom: -1em; 
+	padding-bottom: 1em;
+	padding-top: 0.5em;
+	background-color: /*#337b88*/ #274690 !important;
+	color: white;
+}
+
+.text-hero {
+	color: /*#337b88*/ #4f6d7a !important;
+}
+
+.custom-jumbo {
+	margin-bottom: -2em !important;
 }
 
 .footer {
-	padding-top: 0.5em;
+	padding-top: 1.5em;
 	padding-bottom: 0.5em;
+	
+	margin-top: -1em;
 }
 
 .disclaimer {
 	
 }
 
+.showcase-img {
+	border-color: #51c2f6 !important;
+	border-width: 0.5em;
+}
+
 .hero-btn {
-	background-color: #DE9550 !important;
-	border-color: #693400 !important;
+	background-color: #f4d06f !important;
+	border-color: #4f6d7a !important;
 	margin-bottom: 0.2em;
 	margin-right: 0.1em;
 	margin-left: 0.1em;
@@ -31,10 +55,16 @@ body {
 	color: black !important;
 }
 
+.hero-btn:hover {
+	background-color: #51c2f6 !important;
+}
+
 .hero-para {
 	margin-bottom: 0.2em;
 	margin-top: 0.2em;
-	margin-left: 0.2em;
-	color: white;
-	background-color: #337b88;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	padding-top: 0.2em;
+	color: #4f6d7a;
+	background-color: #e0e0e0;
 }
