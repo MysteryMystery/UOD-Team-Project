@@ -22,7 +22,7 @@
 	    		<li class="nav-item"><a class="nav-link wiki-link" href="#">Wiki</a></li>
 	    	</ul>
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link dark-mode" href="#">Dark Mode</a></li>
+				<li class="nav-item"><a class="nav-link dark-mode" href="javascript:void(0);">Dark Mode</a></li>
 			</ul>
 	    </div>
 	</nav>
@@ -35,7 +35,7 @@
 
 	<div class="jumbotron jumbotron-fluid bg-hero text-light custom-jumbo" style="margin-bottom: 0;">
 		<div class="container text-center">
-			<h1 class="display-4">Windows Privacy Suite</h1>
+			<h1 class="display-4">Windows Privacy Tool</h1>
 			<p class="lead">By James Attfield, Harry Bellis, Ben Bryce and Ryan Crouch.</p>
 
 			<div class="container text-center">
@@ -55,27 +55,57 @@
 	</div>
 	
 	<div class="container mainContent">
+		<!-- Summaries -->
 		<div class="row text-center">
 			<div class="col hero-para">
-				<h2 class="lead font-weight-bold">What is our aim?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim ante, suscipit sit amet quam in, vulputate molestie quam. Fusce ut metus quis mauris congue bibendum a in metus. Vestibulum vestibulum eros metus, sed viverra urna viverra ac. Etiam ac ultrices leo. Aenean vehicula iaculis ante eu vulputate. Sed scelerisque. </p>
+				<h2 class="lead font-weight-bold hero-para">What is our aim?</h2>
+				<hr class="ml-1">
+				<p>We are getting tired of our big brother listening in on everything we do and selling our data. Our aim is to fight this so called 'big brother' by altering windows in such a way that our privacy is secured and let us keep to ourselves.</p>
 			</div>
 			<div class="col hero-para">
-				<h2 class="lead font-weight-bold">What does this do?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim ante, suscipit sit amet quam in, vulputate molestie quam. Fusce ut metus quis mauris congue bibendum a in metus. Vestibulum vestibulum eros metus, sed viverra urna viverra ac. Etiam ac ultrices leo. Aenean vehicula iaculis ante eu vulputate. Sed scelerisque. </p>
+				<h2 class="lead font-weight-bold hero-para">What does Little Brother do?</h2>
+				<hr class="ml-1">
+				<p>Little Brother is a tool which edits the registry on your Windows machine, disabling certain settings such as sending usage data to Microsoft, allowing you to enjoy your time knowing that you are not being spied on by companies. </p>
+				<p>This application requires administrator access in order to work, and lets you chose which keys to edit, or you can simply run our recommended changes, letting you get on with your day quickly!</p>
 			</div>
 			<div class="col hero-para">
 				<h2 class="lead font-weight-bold hero-para">Who are we?</h2>
+				<hr class="ml-1">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim ante, suscipit sit amet quam in, vulputate molestie quam. Fusce ut metus quis mauris congue bibendum a in metus. Vestibulum vestibulum eros metus, sed viverra urna viverra ac. Etiam ac ultrices leo. Aenean vehicula iaculis ante eu vulputate. Sed scelerisque. </p>
 			</div>
 		</div>
 		
+		<!-- Tool specs -->
+		<div id="specs" class="row title-bar">
+			<div class="col ml-auto">
+				<h3>The specs</h3>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col"></div>
 			<div class="col-sm-8"><img src="https://media.discordapp.net/attachments/540878396419342350/550924045978304532/GUI-Design_Advanced-Tab_Version-1.png" class="img-fluid showcase-img" alt="Showcase Image"></div>
 			<div class="col"></div>
 		</div>
+
+		<!-- Change Log -->
+		<div id="changelog" class="row title-bar">
+			<div class="col ml-auto">
+				<h3>Changelog</h3>
+			</div>
+		</div>
+		<div class="row subtitle-bar">
+			<div class="col ml-auto">
+				<h3>Latest Changes</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				&bull; Some changes here
+			</div>
+		</div>
+
 		
+		<!-- The team Section -->
 		<div class="row title-bar">
 			<div class="col ml-auto">
 				<h3>The Team</h3>
@@ -102,7 +132,7 @@
 				<hr class="ml-1">
 				<div class="row">
 					<div class="col"></div>
-					<div class="col-sm-8"><img src="img/HarryProfile.jpg" class="img-fluid showcase-img" alt="Showcase Image"></div>
+					<div class="col-sm-8"><img src="img/HarryProfile.png" class="img-fluid showcase-img" alt="Showcase Image"></div>
 					<div class="col"></div>
 				</div>
 				
@@ -123,7 +153,7 @@
 				<hr class="ml-1">
 				
 				<h6>Website designer and Chairman</h6>
-				<p>A student studying cyber security, and taking part in various coding activities.</p>
+				<p>A student studying cyber security.</p>
 			</div>
 			<div class="col hero-para">
 				<h2 class="lead font-weight-bold text-center">Ryan Crouch</h2>
@@ -137,7 +167,7 @@
 				<hr class="ml-1">
 				
 				<h6>GUI designer and Spokesman</h6>
-				<p>A student studying cyber security, and taking part in various coding activities.</p>
+				<p>A student studying cyber security.</p>
 			</div>
 		</div>
 	</div>
@@ -157,8 +187,8 @@
 	<script src="js/util.js"></script>
 
 	<script type="text/javascript">
-		var darkMode = false;
 		$(document).ready(function(){
+			/* Link redirects */
 			$(".releases-link").click(function(){
 				//window.location.href = "https://github.com/MysteryMystery/UOD-Team-Project/releases";
 				openNewTab(window, "https://github.com/MysteryMystery/UOD-Team-Project/releases/latest");
@@ -173,9 +203,13 @@
 				openNewTab(window, "https://github.com/MysteryMystery/UOD-Team-Project/releases");
 			});
 			
+			/* Dark mode buttons */
 			$(".dark-mode").click(function(){
-				$("body").css("background-color", (!darkMode ? "#2C2F33" : "#f4f4f4"));
-				darkMode = !darkMode;
+				var body = $("body");
+				if (body.hasClass("dark")) 
+					body.removeClass("dark");
+				else
+					body.addClass("dark");
 			});
 		});
 	</script>

@@ -3,6 +3,11 @@
 
 body {
 	background-color: /*#013741*/ #f4f4f4;
+	transition: background-color 0.5s;
+}
+
+body.dark {
+	background-color: #2C2F33;
 }
 
 .bg-main {
@@ -14,11 +19,19 @@ body {
 }
 
 .title-bar {
+	margin-top: 1em;
 	margin-bottom: -1em; 
 	padding-bottom: 1em;
 	padding-top: 0.5em;
 	background-color: /*#337b88*/ #274690 !important;
 	color: white;
+}
+
+.subtitle-bar {
+	margin-top: 1em;
+	margin-bottom: -0.5em;
+	padding-bottom: 0.5em;
+	color: #4f6d7a;
 }
 
 .text-hero {

@@ -1,5 +1,6 @@
 .bg-blue {
 	background-color: #0285a1 !important;
+	transition: background-color 1s;
 }
 
 .bg-blue-dark {
