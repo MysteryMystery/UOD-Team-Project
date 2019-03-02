@@ -38,6 +38,7 @@ body.dark {
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 	background-color: #fcfcfc;
+	padding-bottom: 1em;
 }
 
 .text-hero {
@@ -62,6 +63,20 @@ body.dark {
 .showcase-img {
 	border-color: #51c2f6 !important;
 	border-width: 0.5em;
+}
+
+.hero-hero-btn {
+	background-color: #51c2f6 !important;
+	border-color: #4f6d7a !important;
+	margin-bottom: 0.2em;
+	margin-right: 0.1em;
+	margin-left: 0.1em;
+	border-radius: 0 !important;
+	color: black !important;
+}
+
+.hero-hero-btn:hover {
+	background-color: #51c2f6 !important;
 }
 
 .hero-btn {
