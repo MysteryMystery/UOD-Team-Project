@@ -102,3 +102,25 @@ body.dark {
 	color: #4f6d7a;
 	background-color: #e0e0e0;
 }
+
+.nav-tab {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	transition: background-color 0.1s;
+}
+
+.nav-tab:hover {
+	background-color: #274690 !important;
+}
+
+.navbar-custom {
+	color: white !important;
+}
+
+.nav-tab-a {
+	color: #ffffff !important;
+}
+
+.nav-tab-a:hover {
+
+}
