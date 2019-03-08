@@ -1,9 +1,14 @@
 /* http://paletton.com/#uid=73m0u0ktdiLkqrOpwnyAIdfNY6X  */
 /* https://coolors.co/51c2f6-e0e0e0-f4d06f-4f6d7a-274690 */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
 	background-color: /*#013741*/ #f4f4f4;
 	transition: background-color 0.5s;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Raleway", sans-serif !important;
 }
 
 body.dark {
@@ -36,7 +41,7 @@ body.dark {
 
 .general-content {
 	margin-right: 0.2em;
-	margin-left: 0.2em;
+	margin-left: 0.12m;
 	background-color: #fcfcfc;
 	padding-bottom: 1em;
 }
