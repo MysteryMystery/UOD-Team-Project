@@ -17,7 +17,7 @@
 			<img src="img/logo-no-words.png" class="" height="30" width="30">
 		</a>
 		<a class="navbar-brand" href="/"> 
-			Little Brother Privacy Tool <br> <small class="text-hero" style="padding-top: 0;">For Windows</small>
+			Little Brother Privacy Tool <small class="text-hero remove-xs" style="padding-top: 0;">For Windows</small>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
 					<div class="col">
 						<a class="btn btn-primary releases-link hero-btn" href="#">Releases</a>
 						<a class="btn btn-primary latest-dl-link hero-btn" href="#">Download Latest</a>
-						<a class="btn btn-primary wiki-link hero-btn" href="#">Wiki</a>
+						<!--<a class="btn btn-primary wiki-link hero-btn" href="#">Wiki</a>-->
 					</div>
 				</div>
 			</div>
@@ -222,6 +222,10 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
+			var win = $(window);
+			if (win.width() < 578) 
+				$("remove-xs").each(function() { $(this).hide(); });
+
 			/* Link redirects */
 			$(".releases-link").click(function(){
 				//window.location.href = "https://github.com/MysteryMystery/UOD-Team-Project/releases";
