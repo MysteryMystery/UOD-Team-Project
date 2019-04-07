@@ -223,8 +223,11 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			var win = $(window);
-			if (win.width() < 578) 
-				$(".remove-xs").each(function() { $(this).hide(); });
+			win.resize(function(){
+				if (win.width() < 578) 
+				$(".remove-xs").each(function(index) { $(this).hide(); });
+			});
+			win.trigger("resize");			
 
 			/* Link redirects */
 			$(".releases-link").click(function(){
