@@ -154,10 +154,16 @@ p.profile-desc {
 	padding-right: 0.1em;
 	border: 0.1em solid #cecece;
 	border-radius: 0.5em;
-	height: 10em;
+	min-height: 10em;
+}
+
+@media (min-width: 576px) {
+	p.profile-desc {
+		height: 2em;
+	}
 }
 
 .profile-title {
-	height: 2em;
+	min-height: 2em;
 	margin-bottom: 0.6em;
 }
