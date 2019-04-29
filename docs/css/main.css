@@ -106,9 +106,9 @@ body.dark {
 }
 
 .hero-para {
+	/*
 	margin-bottom: 0.2em;
 	margin-top: 0.2em;
-	/*
 	margin-left: 0.1em;
 	margin-right: 0.1em;*/
 	padding-top: 0.2em;
@@ -158,9 +158,9 @@ p.profile-desc {
 	min-height: 10em;
 }
 
-@media (min-width: 576px) {
-	p.profile-desc {
-		height: 2em;
+@media (max-width: 768px) {
+	[class*='col-'] {
+		margin-bottom: 0.2em;
 	}
 }
 
