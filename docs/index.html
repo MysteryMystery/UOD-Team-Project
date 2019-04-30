@@ -100,7 +100,7 @@
 			<div class="row">
 				<div class="col"></div>
 				<div class="col-sm-8">
-					<img src="img/ConceptGUI.png" class="img-fluid showcase-img border" alt="Showcase Image" style="margin-bottom: 1em; margin-top: 0.5em;">
+					<img src="img/ConceptGUI.png" class="img-fluid showcase-img border preview-img" alt="Showcase Image" style="margin-bottom: 1em; margin-top: 0.5em;">
 					<div>
 						<h4>Features:</h4>
 						<p>
@@ -265,6 +265,12 @@
 				else
 					body.addClass("dark");
 			});
+			
+			var light = true;
+			setInterval(function() {
+				light = !light;
+				$(".preview-img").attr("src", light ? "img/ConceptGUI.png" : "img/ConceptGUI-dark.png");
+			}, 5000);
 		});
 	</script>
 </body>
